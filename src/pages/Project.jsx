@@ -7,7 +7,7 @@ const projects = [
   image: image,
   description:
     "A responsive online store where customers browse products, choose their preferred items and quantities, and add them to a cart. The cart updates totals instantly, so shoppers always see exactly what they're buying.",
-  tech: "React, Django",
+  tech: "React, CSS",
    },
     
   // {
