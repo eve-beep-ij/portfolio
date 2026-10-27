@@ -8,7 +8,9 @@ const projects = [
     "A responsive online store where customers browse products, choose their preferred items and quantities, and add them to a cart. The cart updates totals instantly, so shoppers always see exactly what they're buying.",
   tech: "React, CSS",
   image: shopnow,
-   },
+  live: "https://portfolio-pied-xi-swiq72zuu0.vercel.app",
+  code: "https://github.com/eve-beep-ij/portfolio",
+},
     
   // {
   //   title: "Project two",
@@ -34,6 +36,18 @@ export default function Project() {
             <h2>{p.title}</h2>
             <p>{p.description}</p>
             <small>{p.tech}</small>
+            <div className="project-links">
+  {p.live && (
+    <a href={p.live} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+      View live
+    </a>
+  )}
+  {p.code && (
+    <a href={p.code} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+      View code
+    </a>
+  )}
+</div>
           </article>
         ))}
       </div>

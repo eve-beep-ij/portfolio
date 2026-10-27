@@ -689,10 +689,26 @@ body {
   overflow: hidden;
 }
 
-.project-image {
+/* .project-image {
   display: block;
   width: calc(100% + 3rem);
   height: 190px;
   margin: -1.5rem -1.5rem 1.25rem;
-  object-fit: cover;
+  object-fit: cover; */
+/* } */
+.project-image {
+  display: block;
+  width: calc(100% + 3rem);
+  height: auto;
+  margin: -1.5rem -1.5rem 1.25rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.project-card .btn {
+  text-decoration: none;
 }
