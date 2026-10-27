@@ -36,18 +36,7 @@ export default function Project() {
             <h2>{p.title}</h2>
             <p>{p.description}</p>
             <small>{p.tech}</small>
-            <div className="project-links">
-  {p.live && (
-    <a href={p.live} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-      View live
-    </a>
-  )}
-  {p.code && (
-    <a href={p.code} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
-      View code
-    </a>
-  )}
-</div>
+            <div className="project-links"></div>
           </article>
         ))}
       </div>
