@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SocialLinks from "../components/SocialLinks";
+// import SocialLinks from "../components/SocialLinks";
 import profile from "../assets/profile.png";
 
 export default function Home() {
