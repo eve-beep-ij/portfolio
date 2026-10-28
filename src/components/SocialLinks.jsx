@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const socials = [
-  { label: "X", href: "https://x.com/@Ijeomaeve1", Icon: FaXTwitter, color: "currentColor" },
+  // { label: "X", href: "https://x.com/@Ijeomaeve1", Icon: FaXTwitter, color: "currentColor" },
   { label: "LinkedIn", href: "https://linkedin.com/in/ijeoma-eve-69801021a", Icon: FaLinkedin, color: "#0A66C2" },
   { label: "GitHub", href: "https://github.com/eve-beep-ij", Icon: FaGithub, color: "currentColor" },
   { label: "Email", href: "mailto:ijayeve24@gmail.com", Icon: MdEmail, color: "#EA4335" },
