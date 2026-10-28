@@ -31,6 +31,10 @@ export default function About() {
         <li>JavaScript</li>
         <li>React</li>
         <li>Git</li>
+        <li>Django</li>
+        <li>NodeJs</li>
+        <li>Python</li>
+        {/* <li>MySQL</li> */}
       </ul>
     </section>
   );
