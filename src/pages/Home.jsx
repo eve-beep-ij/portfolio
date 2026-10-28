@@ -18,7 +18,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <SocialLinks />
+        {/* <SocialLinks /> */}
       </div>
       <div className="hero-photo">
       <img src={profile} alt="Gloria Eve" />
