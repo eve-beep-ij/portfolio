@@ -6,7 +6,7 @@ const projects = [
   title: "Shopnow",
   description:
     "A responsive online store where customers browse products, choose their preferred items and quantities, and add them to a cart. The cart updates totals instantly, so shoppers always see exactly what they're buying.",
-  tech: "React, CSS, Django, BootStrap",
+  tech: "React, CSS, Django, Bootstrap",
   image: shopnow,
   live: "https://portfolio-pied-xi-swiq72zuu0.vercel.app",
   code: "https://github.com/eve-beep-ij/portfolio",
