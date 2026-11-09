@@ -4,7 +4,7 @@ export default function About() {
       <h1>About</h1>
 
       <p>
-        I'm Gloria Eve, a full-stack developer who enjoys turning ideas into
+        I'm Gloria Eve, a Full-Stack developer who enjoys turning ideas into
         polished, reliable web experiences. I work across the whole stack, from
         building clean, responsive interfaces with React to designing the
         backend logic that powers them.

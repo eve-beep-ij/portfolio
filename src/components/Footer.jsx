@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <SocialLinks />
-      <p>© {2026} Gloria Eve. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Gloria Eve. All rights reserved.</p>
     </footer>
   );
 }
